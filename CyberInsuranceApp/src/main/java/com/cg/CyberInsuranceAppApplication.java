@@ -8,6 +8,7 @@ public class CyberInsuranceAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CyberInsuranceAppApplication.class, args);
+		System.out.println("hello");
 	}
 
 }
