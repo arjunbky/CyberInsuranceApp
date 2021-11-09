@@ -33,6 +33,7 @@ public class OtpService {
 	 //Using user id  as key
 	 public int generateOTP(String key){
 
+	        System.out.println("hello");
 	Random random = new Random();
 	int otp = 100000 + random.nextInt(900000);
 	otpCache.put(key, otp);
